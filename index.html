@@ -20,7 +20,7 @@
 </head>
 <body>
 
-  <header class="md:container mx-auto border-4">
+  <header class="md:container mx-auto">
 
     <nav class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around	mt-20">
       <div class="flex ml-24 items-center	gap-5">
@@ -28,7 +28,7 @@
         <h2 class="font-bold text-3xl">Justice</h2>
       </div>
 
-      <ul class="flex font-semibold mb-5 items-center grid md:grid-cols-3 gap-20">
+      <ul class="flex font-semibold mb-5 items-center gap-10">
         <li><a href="">Home</a></li>
         <li><a href="">Services</a></li>
         <li><a href="">Cases</a></li>
@@ -183,7 +183,7 @@
 
     <div class=" mt-20">
       <!-- title section -->
-       <div class="flex items-center">
+       <div class="md:flex items-center">
 
         <div class="ml-24">
 
@@ -231,16 +231,16 @@
    </section>
 
    <section class="">
-    <div class="text-center">
+    <div class="text-center mt-14">
       <h2 class="text-3xl font-extrabold mb-8">Contact With Us</h2>
       <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available,
          but the majority have<br> suffered alteration in some form, by injected humour.</p>
     </div>
-    <div class="flex">
+    <div class="md:flex ml-44">
       <!-- card section -->
        <div class="mt-16">
 
-        <div class="flex border-t-2">
+        <div class="flex grid md:grid-cols-2 border-t-2">
 
         <!-- first card -->
         <div class="border-r-2 p-16">
@@ -269,7 +269,7 @@
         </div>
 
 
-        <div class="flex border-t-2">
+        <div class="flex grid md:grid-cols-2 border-t-2">
 
          <!-- thard card -->
          <div class="border-r-2 p-20">
@@ -296,26 +296,127 @@
           </div>
 
         </div>
-
-    
-            
+ 
 
        </div>
 
        <!-- input section -->
-       <div>
+        <form class="mt-20">
+
+       <div class="mt-16 ml-36">
+
+        <div class="p-">
+          <input class="bg-gray-200 text-black text-2xl px-10 py-7 rounded-xl" type= "text " placeholder="Your Name" >
+        </div> 
+       </div>
+
+       <div class="mt-5 ml-36">
+
+       <div class="p-">
+        <input class="bg-gray-200 text-black text-2xl px-10 py-7 rounded-xl" type= "email " placeholder="Your Email" >
+      </div> 
+       </div>
+
+       <div class="mt-5 ml-36">
+
+      <div class="p-">
+        <input class="bg-gray-200 text-black text-2xl px-10 py-7 rounded-xl" type= "text " placeholder="Subject" >
+      </div> 
+       </div>
+
+       <div class="mt-5 ml-36">
+        <div>
+          <textarea class="bg-gray-200 w-80 rounded-xl py-10 p-" name="" id="" cols="" placeholder="Message"></textarea>
+          
+        </div>
+
+       </div>
+
+       <div class="ml-40 mt-8">
+        <div>
+          <input class="btn px-24 py-9 btn-wide bg-[#B68C5A] font-semibold text-white ml-10 " type="submit" value="Submit">
+        </div>
 
 
        </div>
+        </form>
 
     </div>
    </section>
 
-
-
 </main>
 
 
-<footer></footer>
+<footer class="max-w-full mt-24 bg-black">
+  <section class="flex justify-around pt-10">
+
+    <div class="">
+
+    <div class="flex items-center gap-5">
+      <div>
+      <img src="images/business.png">
+      </div>
+      <h2 class="text-2xl text-white font-semibold" >Justice</h2>
+    </div>
+    <p class=" my-5 text-gray-400">There are many variations of<br> passages of Lorem Ipsum 
+      available,<br> but the majority have suffered alteration<br> 
+      in some form, by injected humour.</p>
+
+    </div>
+ 
+
+    <div class="text-white">
+      <div class="">
+        <h2 class="text-2xl font-semibold">Usefull Link</h2>
+      </div>
+      <ul class=" text-gray-400 my-5">
+        <li><a href="">Homes</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Cases</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact Us
+        </a></li>
+      </ul>
+    </div>
+
+    <div class="text-white">
+      <div>
+        <h2 class="text-2xl font-semibold">Contact Now</h2>
+      </div>
+      <div class="text-gray-400">
+        <p class="mt-5">555 4th 5t NW, Washington<br>
+          DC 20530, United States</p>
+
+        <p class="mt-5">+88 01750 000 000<br>
+         +88 01750 000 000</p>
+
+         <p class="my-5">info@gmail.com<br>
+           info@gmail.com</p>
+      </div>
+
+    </div>
+
+    <div>
+      <div class="text-white">
+        <h2 class="text-2xl font-semibold">Subscribe</h2>
+        <p class="mt-5 text-gray-400">Subscribe for our latest & Articles.<br> We Won’t Give You Spam Mails</p>
+
+      </div>
+      <div>
+        <div class="pt-5">
+           <input class="bg-gray-200 text-black text-2xl px-10 py-5 rounded-xl" type= "email "
+             placeholder="Your Email">
+        </div> 
+
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+
+</footer>
 </body>
 </html>
